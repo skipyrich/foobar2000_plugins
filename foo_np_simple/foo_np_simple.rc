@@ -1,0 +1,128 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG DIALOGEX 0, 0, 329, 287
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "",IDC_STATIC,9,9,311,50
+    CONTROL         "Save to file",IDC_SAVE2FILE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,9,52,10
+    EDITTEXT        IDC_PATH,16,24,278,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,295,24,18,14
+    LTEXT           "Encoding:",IDC_STATIC,16,43,32,8
+    COMBOBOX        IDC_ENCODING,50,41,82,115,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Log mode",IDC_LOGMODE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,140,43,47,10
+    CONTROL         "Delay for (ms):",IDC_CHECK_DELAY,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,43,64,10
+    EDITTEXT        IDC_EDIT_DELAY,259,41,54,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN_DELAY,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,303,41,10,14
+    CONTROL         "Copy to clipboard",IDC_COPY2CLIPBOARD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,65,72,10
+    PUSHBUTTON      "Events",IDC_OPTIONS,263,63,50,14
+    GROUPBOX        "Formatting string",IDC_STATIC,9,78,311,193
+    EDITTEXT        IDC_FORMAT,16,88,297,104,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Static",IDC_PREVIEW,16,195,297,55,SS_NOPREFIX | SS_SUNKEN
+    LTEXT           "On exit:",IDC_STATIC,16,255,27,8
+    EDITTEXT        IDC_SILENCE,50,253,263,12,ES_AUTOHSCROLL
+    CTEXT           "www.skipyrich.com",IDC_LINK,93,271,141,8,WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 9
+        RIGHTMARGIN, 320
+        VERTGUIDE, 16
+        VERTGUIDE, 50
+        VERTGUIDE, 132
+        VERTGUIDE, 313
+        TOPMARGIN, 9
+        BOTTOMMARGIN, 279
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
